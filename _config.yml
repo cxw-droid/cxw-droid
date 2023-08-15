@@ -300,15 +300,15 @@ defaults:
 #    num_posts: # 5 (default)
 #    colorscheme: # "light" (default), "dark"
 
-#repository: cxw-droid/cxw-droid.github.io
-#comments:
-#  provider: "utterances"
-#  utterances:
-#    theme: "github-light" # "github-dark"
-#    issue_term: "pathname"
-#    label: "comment" # Optional - must be existing label.
-    
+repository: cxw-droid/cxw-droid.github.io
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "cxw-droid-github-io"
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+    
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: "cxw-droid-github-io"
