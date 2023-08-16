@@ -292,7 +292,7 @@ defaults:
       share: true
       related: true
       show_date: true
-      mathjax: true
+      #mathjax: true
 
 #comments:
 #  provider: "facebook"
@@ -313,3 +313,6 @@ comments:
 #  provider: "disqus"
 #  disqus:
 #    shortname: "cxw-droid-github-io"
+
+# Build settings
+markdown: kramdown
