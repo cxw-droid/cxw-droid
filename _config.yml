@@ -13,14 +13,14 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : default
+minimal_mistakes_skin    : air
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Blog Test site"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "my name"
+name                     : "Anonymous"
 description              : "An amazing website!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : utterances # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -287,32 +287,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+#      read_time: true
       comments: true
       share: true
       related: true
       show_date: true
-      #mathjax: true
+      mathjax: true
 
-#comments:
-#  provider: "facebook"
-#  facebook:
-#    appid: # optional
-#    num_posts: # 5 (default)
-#    colorscheme: # "light" (default), "dark"
 
-repository: cxw-droid/cxw-droid.github.io
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
-    label: "comment" # Optional - must be existing label.
-    
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: "cxw-droid-github-io"
-
-# Build settings
-markdown: kramdown
