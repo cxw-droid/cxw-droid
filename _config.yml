@@ -294,4 +294,11 @@ defaults:
       show_date: true
       mathjax: true
 
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
